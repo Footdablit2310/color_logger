@@ -1,0 +1,6 @@
+[project]
+name = "color_logger"
+version = "1.0.0"
+description = "Simple global color logger with ANSI support"
+requires-python = ">=3.11"
+dependencies = ["colorama"]
