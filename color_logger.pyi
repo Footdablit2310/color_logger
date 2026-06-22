@@ -7,6 +7,7 @@ WARN = logging.WARN
 ERROR = logging.ERROR
 ERR = logging.ERROR
 CRITICAL = logging.CRITICAL
+CRIT = logging.CRITICAL
 FATAL = logging.FATAL
 
 def create_logger(name: str, clear_handlers: bool = True, default_level: int = logging.DEBUG) -> logging.Logger:

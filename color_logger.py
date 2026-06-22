@@ -29,6 +29,7 @@ WARN = logging.WARN
 ERROR = logging.ERROR
 ERR = logging.ERROR
 CRITICAL = logging.CRITICAL
+CRIT = logging.CRITICAL
 FATAL = logging.FATAL
 
 # Create logger
