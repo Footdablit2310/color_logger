@@ -10,5 +10,9 @@ CRITICAL = logging.CRITICAL
 CRIT = logging.CRITICAL
 FATAL = logging.FATAL
 
+class ColorFormatter(logging.Formatter):
+    """Base Formatter class"""
+    def format(self, record: logging.LogRecord) -> str:
+        """Formats into COLOR"""
 def create_logger(name: str, clear_handlers: bool = True, default_level: int = logging.DEBUG) -> logging.Logger:
     """Creates a colored logger with the specified name and configuration."""
